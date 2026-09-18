@@ -30,6 +30,7 @@ description enough?**
 
 > Your answer here.
 This project expects a linked issue.
+
 ---
 
 ## Part 2 — After forking and cloning
@@ -48,6 +49,7 @@ upstream is the remote that points to the original repository,i only fetch or pu
 
 The distinction matters because I don't have write access to the original repo,i can't push directly to upstream.
 All my changes go through origin, and if I ever need the latest updates from the original project, I pull them from upstream and merge them into my branch.
+
 ---
 
 ## Part 3 — After making your change
@@ -67,11 +69,12 @@ Yes.
 **6. What caused the conflict? Which file and lines were involved?**
 
 > Your answer here.
+The conflict was in CONTRIBUTORS.md. Both my branch and the conflict-practice branch added a new line right after the same existing line (Ibrahim Yasser's entry) — my branch added Sayed Samir - sayedsamir2, while conflict-practice added Mohammed Nasser — MohammedNaser28.
 
 **7. How did you resolve it — what did you keep, remove, or combine, and why?**
 
 > Your answer here.
-
+I resolved it by keeping both entries rather than discarding either one, since both are legitimate contributions. I removed the conflict markers and manually placed the two names .
 ---
 
 ## Part 5 — After opening your PR
@@ -80,6 +83,8 @@ Yes.
 your PR show?**
 
 > Your answer here.
+https://github.com/IbrahimYasserM/Practice-Repository/pull/27
+3 commits and 2 files changed.
 
 ---
 
@@ -89,9 +94,14 @@ your PR show?**
 or felt different from what you expected going in?**
 
 > Your answer here.
+Nothing about this workflow really surprised me, since I had already worked with PRs and resolved merge conflicts before.
 
 **10. If a teammate asked you to explain the difference between `fork`,
 `clone`, `origin`, and `upstream` in one or two sentences each, what would
 you say?**
 
 > Your answer here.
+Fork: A full copy of someone else's repository created under my own GitHub account, so I can make changes without touching the original.
+Clone: Downloading a copy of a repository from GitHub onto my local machine.
+Origin: The default name Git gives to the remote pointing to the repository I cloned — in my case, my fork. This is where I push my changes.
+Upstream: A remote I added manually that points to the original repository, so I can fetch updates from it even though I don't have write access to it.
