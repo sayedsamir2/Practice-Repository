@@ -15,17 +15,21 @@ revision.
 branch name you plan to use.**
 
 > Your answer here.
+<type>/<short-describtion>
+ex: fix/security-bug
 
 **2. What commit message format is required? Write the exact commit message
 you plan to use for your change.**
 
 > Your answer here.
+<type>: <short summary>
+docs: add my name to contributors list
 
 **3. Does this project expect a linked issue before opening a PR, or is a PR
 description enough?**
 
 > Your answer here.
-
+This project expects a linked issue.
 ---
 
 ## Part 2 — After forking and cloning
@@ -34,7 +38,16 @@ description enough?**
 is `origin` and which is `upstream`, and why does that distinction matter?**
 
 > Your answer here.
+origin	https://github.com/sayedsamir2/Practice-Repository.git (fetch)
+origin	https://github.com/sayedsamir2/Practice-Repository.git (push)
+upstream	https://github.com/IbrahimYasserM/Practice-Repository.git (fetch)
+upstream	https://github.com/IbrahimYasserM/Practice-Repository.git (push)
 
+origin is the remote that points to my fork, this is the one I push my changes to.
+upstream is the remote that points to the original repository,i only fetch or pull from it, to keep my fork updated with any changes made there.
+
+The distinction matters because I don't have write access to the original repo,i can't push directly to upstream.
+All my changes go through origin, and if I ever need the latest updates from the original project, I pull them from upstream and merge them into my branch.
 ---
 
 ## Part 3 — After making your change
