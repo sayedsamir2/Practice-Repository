@@ -56,7 +56,10 @@ All my changes go through origin, and if I ever need the latest updates from the
 follow the convention from `CONTRIBUTING.md`?**
 
 > Your answer here.
-
+d9593b1 (HEAD -> docs/add-my-name) docs: add my name to contributors list
+3b30f00 (origin/main, origin/HEAD, main) Clarify task labeling in README
+f5ecf54 Revise task assignment instructions in README
+Yes.
 ---
 
 ## Part 4 — After hitting the seeded merge conflict
